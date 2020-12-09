@@ -30,7 +30,7 @@ Avec un terminal, aller dans le dossier "frontend" puis:
 
 Avec un terminal, aller dans le dossier backend, puis:
 
-            - puis, toujours dans le terminal ouvert dans le dossier backend:    
+            -puis, toujours dans le terminal ouvert dans le dossier backend:    
             -taper: "npm install",
             -puis: "nodemon server",
             -le serveur écoute sur le port: http://localhost:3000
