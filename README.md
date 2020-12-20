@@ -1,21 +1,5 @@
 # So_Pikocko
 
-## Présentation et instructions
-
-### Présentation
-
-Le site **So_Pikocko** est un site d'avis culinaires où les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres.
-
-**Objectif**: permettre à l'internaute de s'inscrire sur le site et de pouvoir:
-
-    - consulter toutes les sauces enregistrées,
-    - créer des sauces,
-    - modifier les sauces qu'il a créé,
-    - supprimer les sauces qu'il a crée,
-    - liker ou disliker les sauces enregistrées sur le site.
-
-### Instructions pour le lancement: partie Frontend et partie Backend
-
 #### Partie frontend
 
 Prérequis: 

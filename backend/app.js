@@ -2,12 +2,14 @@ const express = require('express');
 const bodyParser = require('body-parser'); // import Body-parser
 const mongoose = require('mongoose'); // import mongoose
 const path = require('path');
+const helmet = require('helmet'); // import helmet
 
 // Déclaration routes user et sauces
 const sauceRoutes = require('./routes/sauces');
 const userRoutes = require('./routes/user');
 const config = require('./config');
-mongoose.connect( config.mongoURI,
+
+mongoose.connect( mongodb+srv://Bertrand:Be123@!@cluster0.hyh2s.mongodb.net/user?retryWrites=true&w=majority,
   { useNewUrlParser: true,
     useUnifiedTopology: true, 
     useCreateIndex: true
@@ -17,6 +19,9 @@ mongoose.connect( config.mongoURI,
 
 // Utilisation express 
 const app = express();
+
+//Utilisation middleware helmet
+app.use(helmet());
 
 // Middleware général qui s'applique à toutes les routes envoyé au serveur
 app.use((req, res, next) => {
