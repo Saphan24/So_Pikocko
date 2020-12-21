@@ -9,7 +9,7 @@ const sauceRoutes = require('./routes/sauces');
 const userRoutes = require('./routes/user');
 const config = require('./config');
 
-mongoose.connect( mongodb+srv://Bertrand:Be123@!@cluster0.hyh2s.mongodb.net/user?retryWrites=true&w=majority,
+mongoose.connect( 'mongodb+srv://Bertrand:Be123@!@cluster0.hyh2s.mongodb.net/user?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true, 
     useCreateIndex: true
