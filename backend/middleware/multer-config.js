@@ -1,4 +1,4 @@
-const multer = require('multer');
+const multer = require('multer'); // Middleware de gestion de fichiers (image)
 
 const MIME_TYPES = { // Dictionnaire qui accepte tous types d'images
     'image/jpg': 'jpg',

@@ -20,7 +20,7 @@ app.set('port', port);
 
 /** Recherche les différentes erreurs et enregistre dans le serveur */
 const errorHandler = error => { 
-  if (error.syscall !== 'listen') {
+  if (error.syscall !== 'listen') { 
     throw error;
   }
   const address = server.address();
